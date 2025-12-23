@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Refresh -->
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/menu_refresh"
+        app:showAsAction="ifRoom"/>
+
+    <!-- Theme Submenu -->
+    <item
+        android:id="@+id/action_theme"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/menu_theme"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/theme_light"
+                android:title="@string/theme_light"/>
+            <item
+                android:id="@+id/theme_dark"
+                android:title="@string/theme_dark"/>
+            <item
+                android:id="@+id/theme_ocean"
+                android:title="@string/theme_ocean"/>
+        </menu>
+
+    </item>
+
+    <!-- Logout -->
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="@string/menu_logout"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme -->
+    <style name="Theme.HifzaA4" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorPrimaryVariant">@color/light_primary_variant</item>
+        <item name="colorOnPrimary">@color/light_on_primary</item>
+        <item name="colorSecondary">@color/light_secondary</item>
+        <item name="colorOnSecondary">@color/light_on_secondary</item>
+        <item name="android:colorBackground">@color/light_background</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnSurface">@color/light_on_surface</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:statusBarColor">@color/light_primary_variant</item>
+    </style>
+
+    <!-- Light Theme -->
+    <style name="Theme.HifzaA4.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorPrimaryVariant">@color/light_primary_variant</item>
+        <item name="colorOnPrimary">@color/light_on_primary</item>
+        <item name="colorSecondary">@color/light_secondary</item>
+        <item name="colorOnSecondary">@color/light_on_secondary</item>
+        <item name="android:colorBackground">@color/light_background</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnSurface">@color/light_on_surface</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:statusBarColor">@color/light_primary_variant</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Theme.HifzaA4.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <item name="colorOnPrimary">@color/dark_on_primary</item>
+        <item name="colorSecondary">@color/dark_secondary</item>
+        <item name="colorOnSecondary">@color/dark_on_secondary</item>
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/dark_on_surface</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:statusBarColor">@color/dark_primary_variant</item>
+    </style>
+
+    <!-- Ocean Theme (Custom Blue/Teal) -->
+    <style name="Theme.HifzaA4.Ocean" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/ocean_primary</item>
+        <item name="colorPrimaryVariant">@color/ocean_primary_variant</item>
+        <item name="colorOnPrimary">@color/ocean_on_primary</item>
+        <item name="colorSecondary">@color/ocean_secondary</item>
+        <item name="colorOnSecondary">@color/ocean_on_secondary</item>
+        <item name="android:colorBackground">@color/ocean_background</item>
+        <item name="colorSurface">@color/ocean_surface</item>
+        <item name="colorOnSurface">@color/ocean_on_surface</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:statusBarColor">@color/ocean_primary_variant</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Widget.HifzaA4.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="Widget.HifzaA4.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="Widget.HifzaA4.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Text Input Style -->
+    <style name="Widget.HifzaA4.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+</resources>
